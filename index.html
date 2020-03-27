@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">	
+<title>Timothy Hotel 首頁</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+		  auto:true,
+	  });
+    });
+  </script>
+	
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+<link href="layout.css" rel="stylesheet" type="text/css">
+	<style>
+		/* :nth-of-type(n) 表示指定標籤的第n個元素 */
+	nav a:nth-of-type(1){
+		color: #ffffff;
+		background-image: url("images/btn_hover.png");
+		}
+		#banner{
+	background-image: url("images/banner/banner.png");
+}
+		.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    
+}
+	</style>
+</head>
+
+<body>
+<header>
+	<img src="images/logo.png" alt="">
+	<p>Traditionally Royal hotel</p>
+	<nav>
+	<a href="index.html">回網站首頁</a>
+	<a href="about.html">關於蒂莫絲</a>
+	<a href="service.html">客房的服務</a>
+	<a href="location.html">我們的位置</a>
+	<a href="contact.html">聯絡蒂莫絲</a>
+	</nav>
+	</header>
+	
+<div id="banner">
+	
+	</div>
+	
+<div id="main">
+	<div id="content">
+	<h1>最新消息</h1>
+		<div class="slider">
+    <div><img src="images/index_slider/slider1.jpg" alt="" ></div>
+	<div><img src="images/index_slider/slider2.jpg" alt=""></div>		
+	<div><img src="images/index_slider/slider3.jpg" alt=""></div>		
+	<div><img src="images/index_slider/slider4.jpg" alt=""></div>		
+  </div>
+	</div>
+	
+	<aside>
+		<img src="images/h1bg2.png" alt="">
+	  <h2>優美的環境●愉快的渡假</h2>
+	<img src="images/aside_area/index_1.jpg" alt="" class="ADimg">
+		<img src="images/aside_area/index_2.jpg" alt="" class="ADimg">
+		<img src="images/aside_area/index_3.jpg" alt="" class="ADimg">
+	
+	</aside>
+	</div>	
+	
+<footer>
+	<div id="footer_center">
+		<p id="info">網站設計練習用, 相關影像資訊來自網路及Janfusun, 如有侵權請告知即刻刪除處理</p>
+		<p id="copyright">
+			Copyright © Timothy Hotel 
+       
+		<span>
+		Design by BFT Maintain by TS
+		</span> </p>
+	</div>	
+	
+	
+	</footer>
+
+	
+	
+</body>
+</html>

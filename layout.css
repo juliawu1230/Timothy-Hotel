@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+body{
+	background-image: url("images/body_bg.png");
+	background-repeat: repeat-x;
+	background-color: #f7e6c0;
+	color:#222;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: "Helvetica Neue", Helvetica, Arial, 'sans-serif'
+}
+
+header{
+	text-align: center;
+	padding-top: 20px;
+	height: 152px;
+}
+header p{
+	font-size: 13px;
+	letter-spacing: 4px;
+}
+nav a{
+	color: #f6e4bd;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 120px;
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+nav a:hover{
+	background-image: url("images/btn_hover.png");
+	color: aliceblue;
+}
+#banner{
+	height:302px;
+	/*background-image: url("images/banner/banner.png");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#main{
+	background-image: url("images/main_bg.png");
+	min-height: 300px;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow: hidden;
+}
+#content{
+	width: 700px;
+	margin: 20px;
+	float:left;
+}
+#content h1{
+	background-image:url("images/h1bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+aside{
+	width: 200px;
+	margin: 20px;
+	float:right;
+}
+aside h2{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+aside img{
+	width:100%;
+	height:auto;
+	
+}
+aside .ADimg{
+	border:5px solid #fff;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+	margin-bottom: 10px;
+	width: 185px;
+}
+
+footer{
+	background-image: url("images/footer.png");
+	height: 100px;
+	text-align: center;
+	
+}
+#footer_center{
+	background-image: url("images/footer_center.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 125px;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0;
+}
+#info{
+	padding-top: 10px;
+}
+#copyright{
+	padding-top: 50px;
+	padding-left: 20px;
+}
+#copyright span{
+	padding-left:100px;
+}
+iframe{
+			margin-top: 20px;
+			margin-left:auto;
+			margin-right: auto;
+			display: block;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5)
+		}
